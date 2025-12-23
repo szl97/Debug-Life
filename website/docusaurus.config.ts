@@ -44,7 +44,7 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: ['./src/css/custom.css', './src/css/navbar-fix.css'],
         },
       } satisfies Preset.Options,
     ],

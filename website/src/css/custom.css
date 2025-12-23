@@ -4,6 +4,23 @@
  * work well for content-centric websites.
  */
 
+/* 修复移动端导航栏侧边栏显示问题 - 必须放在最前面，不在CSS layer中 */
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    width: 100vw !important;
+  }
+
+  .navbar-sidebar__items {
+    overflow-y: auto !important;
+    height: calc(100vh - var(--ifm-navbar-height)) !important;
+  }
+
+  .navbar-sidebar__item {
+    overflow-y: auto !important;
+    max-height: 100% !important;
+  }
+}
+
 /* You can override the default Infima variables here. */
 :root {
   /* 主色调：紫色系，代表创造力和智慧 */
