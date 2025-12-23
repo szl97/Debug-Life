@@ -23,7 +23,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: '第二部分：Code Review',
-      items: ['code-review/欲望是人生的目标函数', 'code-review/欲望的限流机制'],
+      items: ['code-review/欲望是人生的目标函数', 'code-review/对欲望限流', 'code-review/谈工作'],
     },
   ],
 };
